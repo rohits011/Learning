@@ -1,0 +1,12 @@
+package com.rohit.springorm.DAO;
+
+import com.rohit.springorm.entity.Product;
+
+public interface ProductDAO {
+
+	int create(Product p);
+	void update(Product p);
+	void delete(Product p);
+	
+	
+}

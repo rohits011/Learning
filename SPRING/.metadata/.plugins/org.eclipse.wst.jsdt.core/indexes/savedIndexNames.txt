@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+/Users/apple/Desktop/LEARNING/SPRING/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+579523439.index
+3551983611.index
+1093289819.index
+2488727655.index
+3248209266.index
+25981260.index
+1234903321.index

@@ -1,0 +1,9 @@
+package com.rohit.springjdbc.employee.Dao.rowmapper;
+
+import org.springframework.jdbc.core.RowMapper;
+
+import com.rohit.springjdbc.employee.dto.Employee;
+
+public interface EmployeeRowMapper extends RowMapper<Employee> {
+
+}

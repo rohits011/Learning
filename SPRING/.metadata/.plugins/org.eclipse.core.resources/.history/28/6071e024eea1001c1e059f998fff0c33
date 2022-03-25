@@ -1,0 +1,5 @@
+package com.rohit.springmvc.controller;
+
+public class ObjectController {
+
+}

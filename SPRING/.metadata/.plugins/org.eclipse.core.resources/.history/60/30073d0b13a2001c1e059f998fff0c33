@@ -1,0 +1,5 @@
+package com.rohit.springmvc.dto;
+
+public class User {
+
+}

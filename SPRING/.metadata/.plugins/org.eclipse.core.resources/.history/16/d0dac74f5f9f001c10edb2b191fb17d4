@@ -1,0 +1,17 @@
+package com.rohit.springorm.DAO;
+
+import org.springframework.orm.hibernate5.HibernateTemplate;
+
+import com.rohit.springorm.entity.Product;
+
+public class ProductDAOImpl implements ProductDAO {
+	
+	HibernateTemplate hibernateTemplate;
+
+	@Override
+	public int create(Product p) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

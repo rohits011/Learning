@@ -1,0 +1,5 @@
+dbServer=rohitServer
+dbPort=3306
+dbUser=test
+dbPass=test
+#comment a line

@@ -1,0 +1,29 @@
+ package com.rohit.springjdbc.employee.Dao.impl;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import com.rohit.springjdbc.employee.Dao.EmployeeDAO;
+import com.rohit.springjdbc.employee.dto.Employee;
+
+public class EmployeeDAOImpl  implements EmployeeDAO{
+	
+	private JdbcTemplate jdbcTemplate;
+
+	@Override
+	public int create(Employee employee) {
+		String sql = "insert into employee values(?,?,?)";
+		int result = jdbcTemplate.update(sql, 1, "Rohit", "Singh");
+		
+		// TODO Auto-generated method stub
+		return result;
+	}
+
+	public JdbcTemplate getJdbcTemplate() {
+		return jdbcTemplate;
+	}
+
+	public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
+		this.jdbcTemplate = jdbcTemplate;
+	}
+
+}

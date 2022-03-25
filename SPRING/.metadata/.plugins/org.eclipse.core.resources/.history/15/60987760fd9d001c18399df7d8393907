@@ -1,0 +1,12 @@
+package com.rohit.springcoreadvanced.injecting.interfaces;
+
+public class OrderBOImpl implements OrderBO {
+
+	@Override
+	public void placeOrder() {
+		System.out.println("Inside OrderBO");
+		// TODO Auto-generated method stub
+
+	}
+
+}

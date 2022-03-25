@@ -1,0 +1,11 @@
+ package com.rohit.springjdbc.employee.Dao.impl;
+
+public class EmployeeDAOImpl  implements EmployeeDAO{
+
+	@Override
+	public int create(Employee employee) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

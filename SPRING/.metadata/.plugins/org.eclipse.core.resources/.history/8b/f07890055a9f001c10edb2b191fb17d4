@@ -1,0 +1,13 @@
+package com.rohit.springorm.DAO;
+
+import com.rohit.springorm.entity.Product;
+
+public class ProductDAOImpl implements ProductDAO {
+
+	@Override
+	public int create(Product p) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.rohit.springcoreadvanced.stereotype.annotations;
+
+public class Profile {
+
+}

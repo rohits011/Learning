@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+<bean class="com.rohit.springcoreadvanced.autowiring.Address" p:Hno="100" p:city="bharatpur" p:state="rajasthan"></bean>
+
+   <bean class="com.rohit.springcoreadvanced.autowiring.Employee" name="employee"  autowire="byType"  >
+   
+        </bean>
+        <!-- in type byName it will check for name but in type of byType it check for class -->
+     <!--     if no bea will found it will inject null value-->
+   <!-- <!-- if more than one bean are there with same type it will give error in byName type --> -->
+   <!-- for byConstructor type we must have constructor in pojo class then it will do ci -->
+  <!--  <context:annotation-config></context:annotation-config> -->
+   <!--  <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"></bean>--><!-- common way to allow only postcunstruct and predestroy annotation annotation -->
+</beans>

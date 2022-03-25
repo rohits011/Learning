@@ -1,0 +1,5 @@
+package com.rohit.springcoreadvanced.injecting.interfaces;
+
+public class OrderDAOImpl {
+
+}
